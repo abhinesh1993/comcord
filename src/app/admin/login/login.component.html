@@ -1,1 +1,12 @@
-<p>login works!</p>
+<div class="col-xs-4"></div>
+<div class="col-xs-4" (click)="signInWithGoogle()" *ngIf="!user">
+    <img src='https://user-images.githubusercontent.com/1531669/41761606-83b5bd42-762a-11e8-811a-b78fdf68bc04.png'
+        class="img-responsive">
+</div>
+<h4 style="text-align: center; color: brown;" *ngIf="user">
+    Hello {{user}}.
+    <br>
+    Welcome to comcord project
+    <br>
+    <a (click)="signOut();" style="text-decoration: underline;color :red; cursor: pointer">logout</a>
+</h4>

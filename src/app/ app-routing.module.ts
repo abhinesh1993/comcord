@@ -8,10 +8,10 @@ const routes: Routes = [
         component: LoginComponent
     },
 
-    // {
-    //     path: 'error',
-    //     loadChildren: './error/error.module.ts#ErrorModule'
-    // }
+    {
+        path: 'global',
+        loadChildren: './global/global.module#GlobalModule'
+    }
 
 ];
 

@@ -6,7 +6,10 @@ import {RouterModule} from '@angular/router';
 import { SocialLoginModule, AuthServiceConfig } from "angularx-social-login";
 import { GoogleLoginProvider } from "angularx-social-login";
 
+//Modules
 import { AppRoutingModule } from './ app-routing.module';
+
+//Componets
 import { AppComponent } from './app.component';
 import { LoginComponent } from "./admin/login/login.component";
 

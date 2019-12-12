@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  'apiVidCord': 'http://stg-api.vidcord.com/api/v1'
 };
